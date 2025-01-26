@@ -1,0 +1,1 @@
+Aceasta aplicatie genereaza un numar intre 1 si 100 
