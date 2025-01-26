@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .number {
+            font-size: 48px;
+            font-weight: bold;
+            color: #2e8b57;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #3cb371;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Random Number Generator!</h1>
+    <div class="number">{{ number }}</div>
+    <button onclick="window.location.reload()">Generate New Number</button>
+</body>
+</html>
